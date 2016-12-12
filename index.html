@@ -7,7 +7,9 @@
     <link href="styles.css" rel="stylesheet"></head>
     <body>
         <app>loading..</app>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsRVho01R9L81_OnWiOsG_w9ttAJKtsZA&callback=initMap"></script>
+        <!--should find google map module to import instead of global variable
+        angular2-google-maps is not recomended for production yet-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsRVho01R9L81_OnWiOsG_w9ttAJKtsZA"></script>
           <!--async defer-->
     <script type="text/javascript" src="app.bundle.js"></script></body>
 </html>
